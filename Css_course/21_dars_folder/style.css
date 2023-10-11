@@ -1,0 +1,362 @@
+/* Core styles */
+
+
+@font-face {
+    font-family: myFont;
+    src: url('../Poppins-Light.ttf');
+}
+
+body {
+    font-family: myFont;
+    margin: 0;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.container {
+    width: 1140px;
+    margin: 0 auto;
+}
+
+/* ********************************* */
+
+.btn {
+    transition: 0.6s;
+    position: relative;
+    left: 1334px;
+    top: -112px;
+    border: none;
+    background: rgb(22, 194, 3);
+    background-size: 200% auto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 15px 30px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px rgb(26, 255, 0);
+
+}
+
+.btn:hover {
+    color: #FFFFFF;
+    background: rgb(0, 255, 98);
+    box-shadow: 0px 0px 17px rgb(5, 207, 82);
+    padding: 16px 32px;
+
+}
+
+
+.new {
+    position: relative;
+    background-color: #1a0dd4;
+    color: white;
+    width: 30px;
+    height: 19px;
+    border-radius: 100px;
+    top: -80px;
+    left: 834px;
+    margin: 0px;
+    padding-top: 3px;
+    padding-left: 9px;
+}
+
+
+.main-header1 {
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    z-index: 10;
+}
+
+
+.main-navigation1 {
+    display: inline-block;
+    vertical-align: middle;
+    /* position: relative; */
+    margin-left: 790px;
+    margin-top: -120px;
+
+}
+
+.main-navigation__item1 {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 50px;
+    font-weight: 500px;
+}
+
+.main-navigation__item1 a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+    /* font-weight: 500; */
+}
+
+
+/* ***************** */
+
+.box {
+    background-color: #2063c7;
+    width: 300px;
+    height: 50px;
+    border-radius: 100px;
+    margin-top: -60px;
+    margin-left: 235px;
+}
+
+.search-btn {
+    position: relative;
+    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: #2063c7;
+    border-radius: 100px;
+    top: 15px;
+    left: 14px;
+}
+
+
+.uchburchak {
+    position: relative;
+    color: white;
+    width: 60px;
+    height: 60px;
+    background-color: #2063c7;
+    border-radius: 100px;
+    top: 14px;
+    left: 16px;
+}
+
+.search-txt {
+    position: absolute;
+    border: none;
+    background: none;
+    outline: none;
+    padding-top: 5px;
+    padding-left: 55px;
+    color: white;
+    font-size: 16px;
+    transition: 0.5s;
+    line-height: 40px;
+    font-family: myFont;
+    transition: 0.6s;
+}
+
+.search-txt::placeholder {
+    color: #FFFFFF;
+}
+
+
+
+
+/* ********************************* */
+
+
+.clearfix {
+    clear: both;
+}
+
+.up {
+    position: relative;
+    color: rgb(26, 255, 0);
+    font-weight: bold;
+    font-family: myFont;
+    margin-left: 100px;
+    top: 10px;
+}
+
+/* .search{
+    width: 250px;
+    height: 50px;
+    border-radius: 100px;
+    position: relative;
+    top: -60px;
+    left: 460px;
+    background-color: #05364D;
+} */
+
+.section-subtitle {
+    letter-spacing: 2px;
+    /* font-weight: 500; */
+    margin-bottom: 10px;
+    color: #797979;
+    text-transform: capitalize;
+}
+
+.section-title {
+    margin-top: 5px;
+    font-size: 42px;
+    /* font-weight: 700; */
+    text-transform: capitalize;
+    color: #05364D;
+}
+
+.button1 {
+    margin-top: 40px;
+    border: none;
+    background: rgb(26, 255, 0);
+    background-size: 200% auto;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+    border-radius: 5px;
+    transition: 0.7s;
+    box-shadow: 0px 0px 14px rgb(26, 255, 0);
+
+}
+
+.button2 {
+    transition: 0.7s;
+    position: relative;
+    margin-left: 15px;
+    border: none;
+    background: #FFFFFF;
+    background-size: 200% auto;
+    color: rgb(26, 255, 0);
+    font-weight: bold;
+    font-size: 14px;
+    padding: 20px 40px;
+    cursor: pointer;
+    border-radius: 5px;
+    box-shadow: 0px 0px 14px rgb(26, 255, 0);
+}
+
+.button1:hover {
+    color: white;
+    background: rgb(5, 207, 82);
+    padding: 22px 45px;
+    box-shadow: 0px 0px 17px rgb(5, 207, 82);
+
+}
+
+.button2:hover {
+    color: #FFFFFF;
+    background: rgb(0, 255, 98);
+    padding: 22px 45px;
+    box-shadow: 0px 0px 17px rgb(5, 207, 82);
+
+}
+
+.blur-line {
+    display: inline-block;
+    position: relative;
+    top: -2px;
+    margin-left: 5px;
+    width: 80px;
+    height: 4px;
+    background-color: rgba(237, 35, 159, 0.6);
+    filter: blur(4px);
+    border-radius: 4px;
+}
+
+/* Main header styles */
+
+.main-header {
+    margin-top: -40px;
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    box-shadow: 0px 3px 16px 0px rgb(0 0 0 / 10%);
+    z-index: 10;
+}
+
+.main-header__brand {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.main-header__brand img {
+    width: 64px;
+}
+
+.main-navigation {
+    display: inline-block;
+    vertical-align: middle;
+    /* position: relative; */
+    margin-left: -220px;
+    margin-top: -4px;
+    margin-right: -410px;
+
+}
+
+.main-navigation__item {
+    display: inline-block;
+    padding: 5px;
+    padding-left: 80px;
+    font-weight: 500px;
+}
+
+.main-navigation__item a {
+    color: #05364d;
+    text-decoration: none;
+    font-size: 12px;
+    /* font-weight: 500; */
+}
+
+.main-navigation__item a:hover {
+    /* padding-left: -100px; */
+    padding: 5px;
+    color: rgb(26, 255, 0);
+    font-size: 14px;
+    transition: 0.5s;
+    border-radius: 100px;
+    /* box-shadow: 0px 0px 17px rgb(5, 207, 82); */
+}
+
+
+.main-banner {
+    position: relative;
+    left: -132px;
+}
+
+.main-section {
+    padding: 120px 30px;
+}
+
+.main-section>div {
+    width: 50%;
+    float: left;
+}
+
+.image {
+    text-align: right;
+    margin-top: -450px;
+    margin-left: 700px;
+}
+
+.main-section__welcome {
+    font-size: 16px;
+    /* font-weight: 400; */
+    margin-bottom: 20px;
+    letter-spacing: 2px;
+    color: #797979;
+}
+
+.hh1 {
+    margin-top: -100px;
+    font-size: 50px;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
+    color: rgb(26, 255, 0);
+}
+
+
+.hh2 {
+    position: relative;
+    top: 20px;
+    margin-top: 20px;
+    font-size: 62px;
+    /* font-weight: 500; */
+    margin-bottom: 20px;
+    color: white;
+}
+
+.text {
+    position: relative;
+    top: 30px;
+    color: white;
+    font-size: 19px;
+    /* font-weight: 300; */
+    margin-bottom: 20px;
+}

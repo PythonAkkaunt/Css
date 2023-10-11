@@ -1,0 +1,261 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"
+        integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            background-color: #11172F;
+            font-family: sans-serif;
+        }
+
+        .card {
+            display: flex;
+            align-items: center;
+            background: linear-gradient(38deg, #2a2f40 50%, #09b6e1 50%);
+            height: 600px;
+            width: 800px;
+            margin: 0 auto;
+            box-shadow: 0px 15px 50px 10px #00000066;
+            margin-top: 2%;
+        }
+
+        .left {
+            content: "";
+            height: 395px;
+            width: 330px;
+            display: flex;
+            align-items: center;
+            background-color: #8ebb25;
+            margin-left: 93px;
+            border-radius: 0% 60% 60% 0%;
+            position: absolute;
+            z-index: 5;
+        }
+
+        .left img {
+            margin-left: -80px;
+            margin-top: 60px;
+            transform: rotate(20deg);
+        }
+
+        .right {
+            content: "";
+            height: 390px;
+            width: 550px;
+            background-color: #2a2f40;
+            z-index: 3;
+            margin-left: 200px;
+        }
+
+        .product-info {
+            position: absolute;
+            margin-left: 245px;
+            height: 394px;
+            width: 305px;
+            z-index: 10;
+        }
+
+        h1 {
+            color: #14BEEB;
+            font-family: "muli";
+            font-weight: 600;
+            font-size: 30px;
+            margin-top: 21px;
+            display: inline-block;
+        }
+
+
+        .product-name i {
+            color: #fff;
+            transition: 0.3s all ease;
+            margin: 0px 12px;
+        }
+
+
+        h3 {
+            color: #fff;
+            font-family: "muli";
+            margin-top: 65px;
+            font-weight: 500;
+        }
+
+        h2 {
+            color: #fff;
+            font-family: "muli";
+            margin-top: 15px;
+            font-weight: 800;
+            font-size: 25px;
+        }
+
+        h4 {
+            color: #fff;
+            display: inline-block;
+            font-family: "muli";
+            margin-top: 15px;
+            font-weight: bold;
+            font-size: 20px;
+        }
+
+        h4.dis {
+            display: inline-block;
+            color: #fff;
+            font-family: "muli";
+            font-weight: 400;
+            font-size: 17px;
+            margin-left: 30px;
+            text-decoration: line-through #f04313;
+        }
+
+        h4.dis span {
+            text-decoration: line-through #f04313;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        li {
+            display: inline-block;
+            margin-right: 25px;
+        }
+
+        ul li {
+            color: #fff;
+            font-family: "muli";
+            margin-top: 20px;
+            font-weight: 500;
+            font-size: 11px;
+        }
+
+        .bg {
+            width: 15px;
+            height: 15px;
+            text-align: center;
+            padding: 2px;
+            margin-right: 20px;
+            border-radius: 50%;
+        }
+
+        .bg:hover {
+            padding-top: 5px;
+            background-color: #f04313;
+            border-radius: 50%;
+            width: 20px;
+            height: 20px;
+            cursor: pointer;
+        }
+
+        .yellow {
+            width: 12px;
+            height: 12px;
+            background-color: #fec60f;
+            border-radius: 50%;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+
+        .black {
+            width: 12px;
+            height: 12px;
+            background-color: #000000;
+            border-radius: 50%;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+
+        .blue {
+            width: 12px;
+            height: 12px;
+            background-color: #02a2ca;
+            border-radius: 50%;
+            border: 2px solid rgba(0, 0, 0, 0);
+        }
+
+        .yellow:hover,
+        .black:hover,
+        .blue:hover {
+            border: 3px solid #f04313;
+            width: 15px;
+            height: 15px;
+            border-radius: 50%;
+        }
+
+        .foot {
+            color: #fff;
+            font-family: "muli";
+            margin-top: 20px;
+            margin-right: 50px;
+            font-weight: 550;
+            font-size: 13px;
+            float: left;
+            transition: 0.3s all ease;
+        }
+
+        .foot i {
+            margin-left: 0;
+            margin-right: 15px;
+        }
+
+        .foot:hover {
+            color: #f04313;
+            font-size: 14px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="card">
+        <div class="left">
+            <img src="https://www.dropbox.com/s/e928cht0h5crcn4/shoe.png?raw=1" alt="shoe">
+        </div>
+        <div class="right">
+            <div class="product-info">
+                <div class="product-name">
+                    <h1>
+                        Nike</h1>
+                    <i class="fa fa-search"></i>
+                    <i class="fa fa-user"></i>
+                    <i class="fa fa-shopping-cart"></i>
+                </div>
+                <div class="details">
+                    <h3>
+                        Genuine Product</h3>
+                    <h2>
+                        Runing Shoes For Men</h2>
+                    <h4>
+                        <span class="fa fa-dollar"></span>125
+                    </h4>
+                    <h4 class="dis">
+                        <span class="fa fa-dollar"></span>150
+                    </h4>
+                </div>
+                <ul>
+                    <li>SIZE</li>
+                    <li class="bg">7</li>
+                    <li class="bg">8</li>
+                    <li class="bg">9</li>
+                    <li class="bg">10</li>
+                    <li class="bg">11</li>
+                </ul>
+                <ul>
+                    <li>COLOR</li>
+                    <li class="yellow"></li>
+                    <li class="black"></li>
+                    <li class="blue"></li>
+                </ul>
+                <span class="foot"><i class="fa fa-shopping-bag"></i>Buy Now</span>
+                <span class="foot"><i class="fa fa-shopping-cart"></i>Add To Cart</span>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>

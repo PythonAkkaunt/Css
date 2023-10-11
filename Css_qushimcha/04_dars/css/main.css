@@ -1,0 +1,28 @@
+/* p {
+    color: red;
+}
+.kurs-nomi {
+color: red; */
+/* }
+#kurs-nomi {
+    color: yellow; */
+    /* } */
+        
+/* Property selector */
+[disabled] {
+    color: red;
+}
+
+/* Universal Selector */
+* {
+    color: blue;
+}
+
+/* .couse_title {
+    color: black;
+} */
+
+#couse_name {
+    color: purple;
+}
+
